@@ -30,7 +30,7 @@ def bmi_evaluation(index):
 def run():
     bmi = bmi_calculation(metric_input())
     index_class = bmi_evaluation(bmi)
-    print(f"Your BMI is {bmi:.2f} and your classification is {index_class}")
+    print(f"Your BMI index is {bmi:.2f} and your classification is {index_class}")
 
 
 run()
